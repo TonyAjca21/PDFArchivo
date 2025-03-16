@@ -13,10 +13,6 @@
         <input class="form-control e" id="formFileLg" type="file" 
               (change)="onFileSelected($event)" accept="application/pdf"> 
       </div>
-
-      <div class="alert alert-warning mt-3" *ngIf="showMessage">
-        <strong>⚠ Atención:</strong> No hay ningún archivo para ver.
-      </div>
       <button  type="button" class="btn btn-view-pdf" (click)="openPDF()">
         <i class="bi bi-eye"></i> VER ARCHIVO
       </button>
