@@ -1,0 +1,76 @@
+
+
+.pdf-upload-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 12px;
+  background: rgba(42, 42, 70, 0.8);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.pdf-header {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #ea00d9;
+  border-bottom: 2px solid #ea00d9;
+  padding-bottom: 1rem;
+}
+
+.file-drop-area {
+  border: 2px dashed #711c91;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+  background: rgba(42, 42, 70, 0.5);
+  overflow: hidden; 
+}
+
+.file-drop-area:hover {
+  border-color: #ea00d9;
+  background: rgba(42, 42, 70, 0.7);
+}
+
+.upload-icon {
+  font-size: 3rem;
+  color: #ea00d9;
+  margin-bottom: 1rem;
+}
+
+.file-msg {
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.btn-view-pdf {
+  background: linear-gradient(45deg, #711c91, #ea00d9);
+  border: none;
+  margin-top: 1rem;
+  padding: 0.75rem 2rem;
+  font-weight: bold;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.btn-view-pdf:hover {
+  background: linear-gradient(45deg, #ea00d9, #711c91);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(234, 0, 217, 0.3);
+}
+
+.file-name-display {
+  background: rgba(36, 36, 62, 0.8);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.container {
+  overflow-y: auto;
+}
+
